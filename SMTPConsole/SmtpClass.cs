@@ -34,7 +34,7 @@ namespace SMTPConsole
             MailMessage(from!, to!, subject, body);
             SmtpClient client = new SmtpClient(server);
             client.Timeout = 10000;
-            client.Credentials = new NetworkCredential(from, "dpvbXBcruyxcDUz4BUCU");
+            client.Credentials = new NetworkCredential(from, "");//сюда код доступа
             client.EnableSsl = true;
             try
             {

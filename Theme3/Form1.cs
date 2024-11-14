@@ -20,7 +20,7 @@ namespace Theme3
             //создаем объект отправки
             SmtpClient client = new SmtpClient(server,25);
             client.Credentials =
-            new NetworkCredential(fromBox.Text, "dpvbXBcruyxcDUz4BUCU");
+            new NetworkCredential(fromBox.Text, "");//сюда код доступа
             client.EnableSsl = true;
             //вызываем асинхронную отправку сообщени€
             client.SendAsync(message, "ThatТs all");
