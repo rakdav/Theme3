@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,9 +33,9 @@ namespace SMTPConsole
             MailMessage message = new
             MailMessage(from!, to!, subject, body);
             SmtpClient client = new SmtpClient(server);
-            Console.WriteLine("Сосчитайте до 100");
-            client.Timeout = 10000; 
-            client.UseDefaultCredentials = true;
+            client.Timeout = 10000;
+            client.Credentials = new NetworkCredential(from, "dpvbXBcruyxcDUz4BUCU");
+            client.EnableSsl = true;
             try
             {
                 client.Send(message);

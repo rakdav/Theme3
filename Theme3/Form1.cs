@@ -5,7 +5,7 @@ namespace Theme3
 {
     public partial class Form1 : Form
     {
-        private string server = "100.30.0.30";//запишите здесь адрес вашего сервера
+        private string server = "smtp.mail.ru";//запишите здесь адрес вашего сервера
         public Form1()
         {
             InitializeComponent();
@@ -18,12 +18,10 @@ namespace Theme3
             fromBox.Text, toBox.Text,
             themeBox.Text, bodyBox.Text);
             //создаем объект отправки
-            SmtpClient client = new SmtpClient(server);
-            client.Port = 25; //здесь устанавливаетс€
-                              //порт сервера
-                              //настройки дл€ отправки почты(логин и пароль
+            SmtpClient client = new SmtpClient(server,25);
             client.Credentials =
-            new NetworkCredential("test", "test");
+            new NetworkCredential(fromBox.Text, "dpvbXBcruyxcDUz4BUCU");
+            client.EnableSsl = true;
             //вызываем асинхронную отправку сообщени€
             client.SendAsync(message, "ThatТs all");
         }

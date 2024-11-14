@@ -38,7 +38,7 @@ namespace WakeUp
             // Получение имени компьютера.
             String host = System.Net.Dns.GetHostName();
             // Получение ip-адреса.
-            System.Net.IPAddress ip = System.Net.Dns.GetHostByName(host).AddressList[3];
+            System.Net.IPAddress ip = System.Net.Dns.GetHostByName(host).AddressList[1];
             // Показ адреса в label'е.
             label3.Content = ip.ToString();
             ipToString = ip.ToString().Split('.');
@@ -139,9 +139,9 @@ namespace WakeUp
             int i = int.Parse(ipToString[0]);
             int j = int.Parse(ipToString[1]);
             {
-                for (int k = 0; k < 6; k++)
+                for (int k = 113; k < 114; k++)
                 {
-                    for (int m = 0; m < 254; m++)
+                    for (int m = 0; m <= 254; m++)
                     {
                         Thread _thread = new Thread(() => GetInform(string.Format("{0}.{1}.{2}.{3}", i.ToString(), j.ToString(), k.ToString(), m.ToString())));
                         _thread.Start();
