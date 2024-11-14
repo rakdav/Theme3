@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme3", "Theme3\Theme3.csproj", "{E77514BB-BFA3-48F9-8692-F7A309CAD912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMTPConsole", "SMTPConsole\SMTPConsole.csproj", "{E91AE50C-0737-44FE-9E19-1E63A1489DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WakeUp", "WakeUp\WakeUp.csproj", "{88B91F16-1DA9-4AAB-8E52-0C70F42F2FC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTPClientProject", "FtpClient\FTPClientProject.csproj", "{B505E84D-438E-4265-BF8B-FF5D755EA7AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E77514BB-BFA3-48F9-8692-F7A309CAD912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E77514BB-BFA3-48F9-8692-F7A309CAD912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E77514BB-BFA3-48F9-8692-F7A309CAD912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E77514BB-BFA3-48F9-8692-F7A309CAD912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E91AE50C-0737-44FE-9E19-1E63A1489DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E91AE50C-0737-44FE-9E19-1E63A1489DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E91AE50C-0737-44FE-9E19-1E63A1489DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91AE50C-0737-44FE-9E19-1E63A1489DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88B91F16-1DA9-4AAB-8E52-0C70F42F2FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B91F16-1DA9-4AAB-8E52-0C70F42F2FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B91F16-1DA9-4AAB-8E52-0C70F42F2FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B91F16-1DA9-4AAB-8E52-0C70F42F2FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B505E84D-438E-4265-BF8B-FF5D755EA7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B505E84D-438E-4265-BF8B-FF5D755EA7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B505E84D-438E-4265-BF8B-FF5D755EA7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B505E84D-438E-4265-BF8B-FF5D755EA7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F9341F2-86B1-4B7D-BC55-ADC4AEE561E9}
+	EndGlobalSection
+EndGlobal
