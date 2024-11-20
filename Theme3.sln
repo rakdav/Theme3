@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme3", "Theme3\Theme3.csproj", "{E77514BB-BFA3-48F9-8692-F7A309CAD912}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme3", "Theme3\Theme3.csproj", "{E77514BB-BFA3-48F9-8692-F7A309CAD912}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMTPConsole", "SMTPConsole\SMTPConsole.csproj", "{E91AE50C-0737-44FE-9E19-1E63A1489DB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMTPConsole", "SMTPConsole\SMTPConsole.csproj", "{E91AE50C-0737-44FE-9E19-1E63A1489DB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WakeUp", "WakeUp\WakeUp.csproj", "{88B91F16-1DA9-4AAB-8E52-0C70F42F2FC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WakeUp", "WakeUp\WakeUp.csproj", "{88B91F16-1DA9-4AAB-8E52-0C70F42F2FC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTPClientProject", "FtpClient\FTPClientProject.csproj", "{B505E84D-438E-4265-BF8B-FF5D755EA7AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FTPClientProject", "FtpClient\FTPClientProject.csproj", "{B505E84D-438E-4265-BF8B-FF5D755EA7AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPFirst", "HTTPFirst\HTTPFirst.csproj", "{66CB596B-A546-428B-A010-FDB285E46633}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationJson", "WebApplicationJson\WebApplicationJson.csproj", "{7A824E42-0FCB-4376-9E15-AD7A45C46072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{AFD57CE0-0EC5-4FFA-9AEF-C06C09655DAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{B505E84D-438E-4265-BF8B-FF5D755EA7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B505E84D-438E-4265-BF8B-FF5D755EA7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B505E84D-438E-4265-BF8B-FF5D755EA7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66CB596B-A546-428B-A010-FDB285E46633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CB596B-A546-428B-A010-FDB285E46633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CB596B-A546-428B-A010-FDB285E46633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CB596B-A546-428B-A010-FDB285E46633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A824E42-0FCB-4376-9E15-AD7A45C46072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A824E42-0FCB-4376-9E15-AD7A45C46072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A824E42-0FCB-4376-9E15-AD7A45C46072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A824E42-0FCB-4376-9E15-AD7A45C46072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD57CE0-0EC5-4FFA-9AEF-C06C09655DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD57CE0-0EC5-4FFA-9AEF-C06C09655DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD57CE0-0EC5-4FFA-9AEF-C06C09655DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD57CE0-0EC5-4FFA-9AEF-C06C09655DAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
